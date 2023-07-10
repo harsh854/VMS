@@ -1,0 +1,26 @@
+{
+  "hosting": {
+    "public": "https://github.com/harsh854/VMS",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "emulators": {
+    "hosting": {
+      "port": 5000
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4400
+    },
+    "singleProjectMode": true
+  }
+}
